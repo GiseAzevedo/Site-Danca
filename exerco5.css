@@ -1,0 +1,141 @@
+body{
+    font-family: Arial;
+    background-color: 	#FDF5E6 ;
+    margin:0;
+    
+}
+
+.inicio{
+         background-image: url(pexels-pixabay-358010.jpg);
+         background-position: center right;
+         background-size: cover;
+         height: 530px;
+         border: 1px solid transparent;
+}
+
+
+.inicio nav ul{
+    text-align: right;
+    margin:20px 50px 0 0;
+   
+}
+
+.inicio nav li{
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #fff;
+    list-style: none;
+   
+
+}
+
+.inicio nav a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 12px;
+    background:rgba(135,206,235,0.7);
+    display: block;
+      }
+
+  .inicio nav a:hover{
+     background-color: rgba(135,206,235,0.8);
+  }    
+
+
+  .titulo {
+    color: #000 ;
+    text-align: center;
+    margin-top: 150px;
+    
+   }
+   
+
+  .titulo h1 {
+      font-family: Arial;
+      font-size: 56px;
+      color: #000;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 2px #fff;
+
+  }
+
+  .titulo p {
+    font-family: Arial;
+    font-size: 18px;
+    color:#000;
+    background-color:rgba(85, 191, 233, 0.6);
+    display: inline-block; 
+    padding: 10px; 
+    border-bottom: 3px solid #fff;
+         
+  }
+
+  main{
+      width: 100%;
+      height: auto;
+  }
+
+  .secao {
+    background-color :  #fff ;
+     padding:  10px ;
+     margin-top :  15px ;
+     overflow: auto;
+     
+     
+          
+     
+ }
+
+ .card{
+     width:32%;
+     float: left; 
+     box-sizing: border-box;
+ }
+
+ .card-1, .card-2{
+    margin-right: 2%;
+}
+
+ .card img{
+    max-width: 100%;
+    display: block;
+    width: 362px;
+    height: 369px;
+    object-fit: cover;
+
+
+ }
+
+ 
+ .card p{
+    background-color: rgb(91, 164, 248);
+    color: #000;
+    margin: 0 20px 0 0;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+}
+
+.secao h2{
+   background-color:#fff ;
+   border-bottom: solid 2px rgb(72, 154, 248);
+   width:thin;
+    
+
+}
+
+.rodape{ 
+ background-color: rgb(91, 164, 248);
+ color: #000;
+ font-family: Arial;
+ font-size: 14px;
+ height: 80px;
+ text-align: center;
+ text-shadow: 0.2px  0.2px  0.2px #333 ;  
+ line-height: 80px;
+}
